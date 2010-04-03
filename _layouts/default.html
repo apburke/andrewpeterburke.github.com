@@ -1,13 +1,45 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd>
 <html>
 	<head>
-		<title>{{ page.title }}</title>
+		<title>apburke @ github: {{page.title}}</title>
 	</head>
 
 	<body>
-		<h1>{{ page.title }}</h1>
 
-		{{ content }}
+
+		<div id="webpage">
+
+			<div id="header">
+
+				<h1><a href = "http://andrewpeterburke.github.com">andrewpeterburke.github.com</a></h1><br>
+				<! Dynamic category menu
+				Categories kept as a list of lists with the first element being the category 
+				title and the n remaining elements being the content of pages in that category
+					page content will be repeated for every matching category
+				!>
+				{% if site.categories != empty %}
+				<h2>{{site.categories}}</h2>
+					<ul>
+					{% for item in site.categories %}
+					<li><a href="/{{item.first}}/">/{{item.first}}/</a></li>
+					{% endfor %}
+					</ul>
+				{% endif %}
+			</div>
+
+			<div id ="content">
+				<h2>{{page.title}}</h2>
+
+				{{ content }}
+
+			</div>
+
+			<div id="footer">
+
+			</div>
+
+		</div>
+
 	</body>
 </html>
 

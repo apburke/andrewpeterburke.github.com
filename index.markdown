@@ -1,5 +1,5 @@
 ---
 layout : default
-title : apb @ github
+title : home
 ---
 Welcome!
