@@ -1,45 +1,47 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd>
 <html>
-	<head>
-		<title>apburke @ github: {{page.title}}</title>
-	</head>
+<head>
+  <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+  <title>{{site.title}}: {{page.title}}</title>
+</head>
 
-	<body>
+<body>
 
+<div id="wrapper">
 
-		<div id="webpage">
+  <div id="header">
+      
+    <h1 class="title"><a href="/" title="{{site.title}}">{{site.title}}</a></h1>
+    <p class="description">{{site.description}}</p>
 
-			<div id="header">
+  </div>
 
-				<h1><a href = "http://andrewpeterburke.github.com">andrewpeterburke.github.com</a></h1><br>
-				<! Dynamic category menu
-				Categories kept as a list of lists with the first element being the category 
-				title and the n remaining elements being the content of pages in that category
-					page content will be repeated for every matching category
-				!>
-				{% if site.categories != empty %}
-				<h2>{{site.categories}}</h2>
-					<ul>
-					{% for item in site.categories %}
-					<li><a href="/{{item.first}}/">/{{item.first}}/</a></li>
-					{% endfor %}
-					</ul>
-				{% endif %}
-			</div>
+  <div id="menu">
 
-			<div id ="content">
-				<h2>{{page.title}}</h2>
+    {% if site.branches != null %}
+      <ul>
+      {% for _branch in site.branches %}
+        <li><a href="/#{{_branch}}">/{{_branch}}/</a></li>
+      {% endfor %}
+      </ul>
+    {% endif %}
 
-				{{ content }}
+  </div>
 
-			</div>
+  <div id ="content">
 
-			<div id="footer">
+    {{ content }}    
+  
+  </div>
 
-			</div>
+  <div id="footer">
 
-		</div>
+    <h2></h2>
+  
+  </div>
 
-	</body>
+</div>
+
+</body>
 </html>
 

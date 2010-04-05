@@ -1,12 +1,14 @@
 ---
-layout : default
+layout : post
+branch: profile
 title : resume
+description: My online resume
 ---
 
-## objective
+### objective
 Seeking a position on a masochistic software development team that moves at a fast pace, deals with new technologies, and takes on the tough projects
 
-## skills
+### skills
 * Object-oriented analysis and design
 * Relational database design and application
 * Web development with Tomcat, LAMP, and Flex
@@ -14,7 +16,7 @@ Seeking a position on a masochistic software development team that moves at a fa
 * Linux systems programming with bash, C, and Perl
 * Graphics and game development with SDL and OpenGL
 
-## experience  
+### experience  
 [**Humanitarian International Services Group**](http://hisg.org "HISG home page")  
 *Software development intern June 2009 - August 2009*  
 * Squashed bugs and implemented new features for HISG's Data Fusion Suite, a multi-tiered application to assist nonprofits around the globe in the tracking of resources and capabilities.
@@ -26,7 +28,7 @@ Seeking a position on a masochistic software development team that moves at a fa
 * Accelerated data analysis for projects by creating scripts to reformat and manipulate giant gobs of data
 * Assisted in the analysis of microarray data in the R statistics environment
 
-## technical proficiencies  
+### technical proficiencies  
 **Languages**   
 * Java, Python, AS3, Perl, C++, C  
 **Platforms**   
@@ -38,7 +40,7 @@ Seeking a position on a masochistic software development team that moves at a fa
 **Code/Project Control**  
 * Git, Subversion, Fogbugz
 
-## education
+### education
 **Baylor University, Waco, Texas**  
 *Bachelor of Science in Informatics, Bioinformatics*
 

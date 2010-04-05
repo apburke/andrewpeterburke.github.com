@@ -1,5 +1,0 @@
----
-{layout: default, title: sample post, categories: [samp1, first, toads, projects], junkKey: junkValue} 
----
-
-BHello world
