@@ -14,7 +14,7 @@ layout: default
 	
     <! Creates a list of posts for each site section !>
     {% for _branch in site.branches %}
-      <h2 id="#{{_branch}}">/{{_branch}}/</h2>
+      <h2 id="{{_branch}}">/{{_branch}}/</h2>
       <ul>
       {% for _post in site.posts %}
         {% if _post.branch == _branch %}
