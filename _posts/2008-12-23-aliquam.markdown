@@ -1,5 +1,6 @@
 ---
 title: Aliquam
+layout: post
 branch: vestibulum
 description: Aliquam et turpis dui, adipiscing ultricies mi.
 ---
