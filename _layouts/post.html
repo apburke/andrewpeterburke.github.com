@@ -4,8 +4,8 @@ layout: default
 
 <div class="post">
 
-  <h2 class="title">/{{page.branch}}/{{page.title}}</h2>
-  <p class="date">{{page.date | date_to_string}}</p>
+  <h2 class="branch">{{page.branch}}</h2>
+  <h3 class = "title">{{page.title}}<span class="date">{{page.date | date_to_string}}</span></h2>
   <p class="description">{{page.description}}</p>
   {{content}}
 

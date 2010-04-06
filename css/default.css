@@ -1,0 +1,182 @@
+body{
+ background-color: #023544;
+ font-family: Inconsolata, Consolas, monospace, sans-serif;
+ font-size: 100%;
+}
+
+/*
+= = = = = = = =
+--- CLASSES ---
+= = = = = = = =
+*/
+
+.branch:before, .branch_link:before{
+ content: "#";
+}
+
+.title {
+ color: #F9746D;
+}
+
+.title:link {
+ font-weight: 900;
+}
+.title:visited {
+ font-weight: 100;
+}
+
+.description {
+ font-style: italic;
+ color: #F9B4B0;
+}
+
+.branch {
+ color: #F9E4B0;
+}
+
+/*
+= = = = = = = =
+--- WRAPPER ---
+= = = = = = = =
+*/
+
+#wrapper{
+ margin-left: auto;
+ margin-right: auto;
+ width: 750px;
+ background-color: #023544;
+}
+
+/*
+= = = = = = = =
+ --- HEADER ---
+= = = = = = = =
+*/
+
+#header{
+ padding: 1em;
+ margin: 0;
+ font-size: 1.2em;
+}
+
+#header h1, #header p{
+ font-variant: small-caps;
+ margin: 0;
+ padding: 0;
+}
+
+
+#header a, #menu a{
+ text-decoration: none;
+ color: inherit;
+}
+
+/*
+= = = = = = = =
+ ---  MENU  ---
+= = = = = = = =
+*/
+
+#menu{
+ height: .5em;
+ border-bottom: .3em dotted #F9E4B0;
+ margin: 0em;
+ padding: 0em;
+ font-size: 1.1em;
+}
+
+#menu ul{
+ height: .5em;
+ list-style-type: none;
+ margin: 0em;
+ padding: 0em;
+ text-align: right;
+}
+
+#menu li{
+ display: inline;
+ padding: .15em;
+ margin: 0 .5em 0 0;
+ background-color: #F9E4B0;
+ color: #6D5003;
+ border: .15em solid #6D5003;
+}
+
+#menu li:hover{
+ background-color: #6D5003;
+ color: #F9E4B0;
+}
+
+/*
+= = = = = = = =
+--- CONTENT ---
+= = = = = = = =
+*/
+
+#content{
+ color: #A3D5E3;
+ padding: 2em 1em;
+ margin: 0;
+}
+
+#content a:link{
+ color: #67C8E3
+}
+
+#content a:visited{
+ color: #13738F
+}
+
+#content a:hover{
+ color: #023544;
+ background-color: #A3D5E3;
+
+}
+
+ /*
+ = = = = = = = =
+  ---  HOME  ---
+ = = = = = = = =
+ */
+
+  /*
+  = = = = = = = =
+  ---  INDEX  ---
+  = = = = = = = =
+  */
+
+.date{
+ float: right;
+ color: inherit;
+ background-color: inherit;
+ font-weight: inherit;
+}
+
+#index a:link{
+ color: #F9746D;
+}
+
+#index a:visited{
+ color: #F9746D;
+}
+
+#index a:hover{
+ color: #6D0803
+}
+
+/*
+= = = = = = = =
+ --- FOOTER ---
+= = = = = = = =
+*/
+
+#footer{
+ border-top: .3em dotted #F9E4B0;
+ margin: 0;
+ padding: 0;
+}
+
+/*
+Color scheme generated at:
+http://colorschemedesigner.com/#3o31XsOsOK-K-
+*/

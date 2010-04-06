@@ -29,18 +29,18 @@ Seeking a position on a masochistic software development team that moves at a fa
 * Assisted in the analysis of microarray data in the R statistics environment
 
 ### technical proficiencies  
-**Languages**   
+* **Languages**   
 * Java, Python, AS3, Perl, C++, C  
-**Platforms**   
+* **Platforms**   
 * Linux, Windows  
-**IDEs**  
+* **IDEs**  
 * Eclipse (and Flex Builder), Vim, Visual Studios  
-**Web technologies**  
+* **Web technologies**  
 * Apache, Tomcat, Mod_python, REST, SOAP  
-**Code/Project Control**  
+* **Code/Project Control**  
 * Git, Subversion, Fogbugz
 
 ### education
-**Baylor University, Waco, Texas**  
-*Bachelor of Science in Informatics, Bioinformatics*
+* **Baylor University, Waco, Texas**  
+* *Bachelor of Science in Informatics, Bioinformatics*
 

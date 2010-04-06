@@ -3,3 +3,6 @@ _site/
 
 # Temporary files
 *~
+
+# Command to run jekyll server in bg
+runblog
