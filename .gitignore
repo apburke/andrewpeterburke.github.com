@@ -3,6 +3,6 @@ _site/
 
 # Temporary files
 *~
-
+*.swp
 # Command to run jekyll server in bg
 runblog

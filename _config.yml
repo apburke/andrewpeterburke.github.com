@@ -1,6 +1,6 @@
 pygments : true
 permalink : none
 auto: true
-title: Lorem ipsum dolor sit amet
-description: consectetur adipiscing elit
-branches: [pellentesque, vestibulum, convallis, viverra, bigloei]
+title: andrewpeterburke@github
+description: Online CV and software development portfolio hosted by github
+branches: [profile, projects]
