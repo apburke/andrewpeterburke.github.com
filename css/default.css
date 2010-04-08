@@ -93,7 +93,11 @@ body {
 }
 
 .post_heading a:link {
- font-size: 1.2em;
+ font-size: 1.1em;
+}
+
+.post_heading a:visited {
+  font-size: .9em;
 }
 
 .post_heading a:visited h3 {
