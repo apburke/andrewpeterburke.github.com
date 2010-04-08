@@ -1,8 +1,8 @@
 body {
- background-color: #FFFFFF;
+ background-color: #FFF;
  font-family: sans-serif;
  font-size: 100%;
- color: #1C2B45;
+ color: #071F45;
 }
 
 #wrapper {
@@ -19,16 +19,19 @@ body {
  #menu {
   font-size: 1.2em;
   border-bottom: .4em dotted;
-  margin: 1em 0em;
+  margin: 0em;
   padding: 0em;
  }
 
  #content {
-  margin: 3em 0em;
+  margin: 0;
  }
 
  #footer {
+  font-size: 1.2em;
   border-top: .4em dotted;
+  margin: 0;
+  padding: 0;
  }
 
 /* CLASSES */
@@ -38,13 +41,15 @@ body {
  text-decoration: none;
 }
 
-.branch h2 {
- border: .2em dotted #FFF;
- border-bottom: .2em dotted;
+.branch h2, .site_heading {
+ border: .1em solid #FFF;
+ border-bottom: .1em solid;
 }
 
-.branch h2:hover {
- border: .2em dotted;
+.branch h2:hover, .site_heading:hover {
+ border: .1em solid;
+ background-color: #1C2D45;
+ color: #FFF;
 }
 
 .branch h2:before, .branch h2:after,
@@ -53,17 +58,17 @@ body {
 }
 
 .branch_link {
- background-color: #1C2B45;
+ background-color: #071F45;
  color: #FFF;
  text-decoration: none;
  margin: 0 .5em 0 0;
  padding: .15em;
- border: .05em solid #1C2B45;
+ border: .05em solid;
 }
 
 .branch_link:hover {
  background-color: #FFF;
- color: #1C2B45;
+ color: #071F45;
 }
 
 .branch_list {
@@ -83,13 +88,19 @@ body {
 }
 
 
-.post_heading, .site_heading {
+.post_heading, .site_heading, .branch h2 {
  padding: .2em;
  margin: 0;
- border: .1em solid #FFF;
- border-bottom: .1em solid;
- border-: .1em solid;
- color: inherit;
+}
+
+.post_heading {
+ color: #521910;
+ border: .1em solid;
+}
+
+.post_heading:hover {
+ background-color: #521910;
+ color: #FFF;
 }
 
 .post_heading a:link {
@@ -102,11 +113,6 @@ body {
 
 .post_heading a:visited h3 {
  font-weight: normal;
-}
-
-.post_heading:hover, .site_heading:hover {
- background-color: #1C2B45;
- color: #FFFFFF;
 }
 
 .post_list {

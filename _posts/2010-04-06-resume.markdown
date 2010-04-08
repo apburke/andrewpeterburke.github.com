@@ -18,12 +18,12 @@ Seeking a position on a software development team that moves at a fast pace, dea
 
 #### Experience  
 [Humanitarian International Services Group](http://hisg.org "HISG home page")  
-*Software development intern June 2009 - August 2009*  
+*Software Development Intern <span class="date">June 2009 - August 2009</span>*  
 * Squashed bugs and implemented new features for HISG's Data Fusion Suite, a multi-tiered application to assist nonprofits around the globe in the tracking of resources and capabilities.
 * Reverse engineered Amazon S3 clone to provide an easy REST file storage interface for DFS and HISG partners
 
 [Baylor University Cichlid Research Lab](https://bearspace.baylor.edu/Patrick_Danley/www/The_Danley_Lab/The_Danley_Lab.html "The Danley Lab")  
-*Undergraduate Lab Assistant September 2007 - May 2009*  
+*Undergraduate Lab Assistant <span class="date">September 2007 - May 2009</span>*  
 * Developed database for the storage of biological samples and data
 * Accelerated data analysis for projects by creating scripts to reformat and manipulate giant gobs of data
 * Assisted in the analysis of microarray data in the R statistics environment
@@ -42,6 +42,6 @@ Seeking a position on a software development team that moves at a fast pace, dea
   Git, Subversion, Fogbugz
 
 #### Education
-* **Baylor University, Waco, Texas**  
-* *Bachelor of Science in Informatics, Bioinformatics*
+**Baylor University, Waco, Texas**  
+*Bachelor of Science in Informatics, Bioinformatics <span class="date">August 2005 - December 2009</span>*
 
