@@ -12,7 +12,7 @@ body {
 }
 
  #header {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: .5em 0em;
  }
 
@@ -35,6 +35,7 @@ body {
 
 .branch a, .site_heading a {
  color: inherit;
+ text-decoration: none;
 }
 
 .branch h2 {
@@ -83,8 +84,8 @@ body {
 
 
 .post_heading, .site_heading {
- padding: .3em;
- margin: 0 0 .5em;
+ padding: .2em;
+ margin: 0;
  border: .1em solid #FFF;
  border-bottom: .1em solid;
  border-: .1em solid;
@@ -92,7 +93,7 @@ body {
 }
 
 .post_heading a:visited {
- font-size: .8em;
+ font-size: .9em;
 }
 
 .post_heading a:visited h3 {
