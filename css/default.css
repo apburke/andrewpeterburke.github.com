@@ -1,214 +1,129 @@
 body {
- background-color: #023544;
+ background-color: #FFFFFF;
  font-family: sans-serif;
  font-size: 100%;
+ color: #1C2B45;
 }
 
-a, a:link, a:visited {
- text-decoration: none
- }
-
-/*
-= = = = = = = =
---- CLASSES ---
-= = = = = = = =
-*/
-
-.branch:before, .branch:after, .branch_link:before, .branch_link:after {
- content: "/";
- }
-
-.branch {
- margin: 0;
- padding: .3em;
- color: #E6AC17;
- border-left: .1em solid #023544;
- border-top: .1em solid #023544;
- border-right: .1em solid #023544;
- border-bottom: .1em solid #E6AC17;
-}
-
-.branch:hover {
- border-top: .1em dotted #E62117;
- border-right: .1em dotted #E6AC17;
- border-left: .1em dotted #E62117;
-}
-
-.branch_listing {
- margin: 0;
- padding: 0em;
- list-style-type: none;
-}
-
-.branch_listing li {
- margin: .4em 0em;
-}
-
-.branch_listing a:link h3{
- font-weight: bold;
-}
-
-.branch_listing h3 {
- font-weight: inherit;
-}
-
-.post_heading p, .post_heading h3, .site_heading p, .site_heading h1 {
-  margin: 0em;
-  padding: 0em;
-}
-
-.post_heading, .site_heading {
- margin: 0em;
- padding: .3em;
- border-left: .1em solid #023544;
- border-top: .1em solid #023544;
- border-right: .1em solid #023544;
- border-bottom: .1em solid #E62117;
-}
-
-.post_heading:hover, .site_heading:hover {
- border-top: .1em dotted #E6AC17;
- border-left: .1em dotted #E6AC17;
- border-right: .1em dotted #E62117;
-}
-
-.date {
- float: right;
- color: inherit;
- background-color: inherit;
- font-weight: inherit;
- text-decoration: inherit;
- border: inherit
-}
-
-.title {
- color: #E62117;
-}
-
-.description {
- font-style: italic;
- color: #F9746D;
-}
-
-
-/*
-= = = = = = = =
---- WRAPPER ---
-= = = = = = = =
-*/
-
-#wrapper{
+#wrapper {
+ width: 750px;
  margin-left: auto;
  margin-right: auto;
- width: 750px;
 }
 
-/*
-= = = = = = = =
- --- HEADER ---
-= = = = = = = =
-*/
+ #header {
+  font-size: 1.4em;
+  margin: .5em 0em;
+ }
 
-#header {
- padding: 1em 0em;
- margin: 0;
- font-size: 1.2em;
- font-variant: small-caps;
+ #menu {
+  font-size: 1.2em;
+  border-bottom: .4em dotted;
+  margin: 1em 0em;
+  padding: 0em;
+ }
+
+ #content {
+  margin: 3em 0em;
+ }
+
+ #footer {
+  border-top: .4em dotted;
+ }
+
+/* CLASSES */
+
+.branch a, .site_heading a {
+ color: inherit;
 }
 
-/*
-= = = = = = = =
- ---  MENU  ---
-= = = = = = = =
-*/
+.branch h2 {
+ border: .2em dotted #FFF;
+ border-bottom: .2em dotted;
+}
 
-#menu {
+.branch h2:hover {
+ border: .2em dotted;
+}
+
+.branch h2:before, .branch h2:after,
+.branch_link:before, .branch_link:after {
+ content: "/";
+}
+
+.branch_link {
+ background-color: #1C2B45;
+ color: #FFF;
+ text-decoration: none;
+ margin: 0 .5em 0 0;
+ padding: .15em;
+ border: .05em solid #1C2B45;
+}
+
+.branch_link:hover {
+ background-color: #FFF;
+ color: #1C2B45;
+}
+
+.branch_list {
  height: .5em;
- border-bottom: .3em dotted #E6AC17;
- margin: 0em;
- padding: 0em;
- font-size: 1.1em;
-}
-
-#menu ul {
- height: .5em;
- list-style-type: none;
  margin: 0em;
  padding: 0em;
  text-align: right;
 }
 
-#menu li {
+.branch_list li{
  display: inline;
- padding: .15em;
- margin: 0 .5em 0 0;
- background-color: #E6AC17;
- color: #6D5003;
- border: .15em solid #6D5003;
 }
 
-#menu li:hover {
- background-color: #6D5003;
- color: #E6AC17;
+.branch_list, .post_list {
+ list-style-type: none;
+ padding: 0em;
 }
 
-#menu a {
- text-decoration: none;
+
+.post_heading, .site_heading {
+ padding: .3em;
+ margin: 0 0 .5em;
+ border: .1em solid #FFF;
+ border-bottom: .1em solid;
+ border-: .1em solid;
  color: inherit;
 }
 
-/*
-= = = = = = = =
---- CONTENT ---
-= = = = = = = =
-*/
-
-#content{
- color: #A3D5E3;
- padding: 0;
- margin: 2em 0 0;
+.post_heading a:visited {
+ font-size: .8em;
 }
 
-#content a:link {
- color: #67C8E3
+.post_heading a:visited h3 {
+ font-weight: normal;
 }
 
-#content a:visited {
- color: #13738F
+.post_heading:hover, .site_heading:hover {
+ background-color: #1C2B45;
+ color: #FFFFFF;
 }
 
-#content a:hover {
- color: #023544;
- background-color: #A3D5E3;
+.post_list {
+ margin: 1em 0em 2.5em 0em;
 }
 
- /*
- = = = = = = = =
-  ---  HOME  ---
- = = = = = = = =
- */
+.description {
+ font-style: italic;
+ font-size: .9em;
+}
 
-  /*
-  = = = = = = = =
-  ---  INDEX  ---
-  = = = = = = = =
-  */
+.date {
+ float: right;
+ font-weight: normal;
+ font-size: .8em;
+}
 
-
-
-/*
-= = = = = = = =
- --- FOOTER ---
-= = = = = = = =
-*/
-
-#footer {
- border-top: .3em dotted #E6AC17;
- margin: 3em 0 0;
+.title, .description {
+ margin: 0;
  padding: 0;
 }
 
-/*
-Color scheme generated at:
-http://colorschemedesigner.com/#3o31XsOsOK-K-
-*/
+.site_heading {
+ font-variant: small-caps;
+}

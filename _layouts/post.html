@@ -4,14 +4,16 @@ layout: default
 
 <div class="post">
 
-  <a href="/#{{page.branch}}"><h2 class="branch">{{page.branch}}</h2></a>
-  <ul class="branch_listing">
-    <li class="post_heading">
-      <a href="{{page.url}}"><h3 class = "title">{{page.title}}
-      <span class="date">{{page.date | date_to_string}}</span></h3>
-      <p class="description">{{page.description}}</p></a>
-    </li>
-  </ul>
+  <div class="branch">
+
+    <ul class="post_list">
+      <li class="post_heading"><a href="{{page.url}}">
+        <h3 class="title">{{page.title}}<span class="date">{{page.date | date_to_string}}</span></h3>
+        <p class="description">{{page.description}}</p></a>
+      </li>
+    </ul>
+
+  </div>
 
   {{content}}
 
