@@ -14,7 +14,6 @@ h4 {
  border-bottom: .1em solid;
 }
 
-
 #wrapper {
  width: 750px;
  margin-left: auto;
@@ -112,7 +111,7 @@ h4 {
 }
 
 .post_heading:hover {
- background-color: #3d120c
+ background-color: #3d120c;
  color: #FFF;
 }
 
