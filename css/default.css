@@ -84,7 +84,8 @@ body {
 
 .branch_list, .post_list {
  list-style-type: none;
- padding: 0 0 0 2em;
+ padding: 0;
+ margin: 0;
 }
 
 
@@ -96,6 +97,7 @@ body {
 .post_heading {
  color: #521910;
  border-bottom: .2em dotted;
+ margin: 0em 0em 1em 1em;
 }
 
 .post_heading:hover {
