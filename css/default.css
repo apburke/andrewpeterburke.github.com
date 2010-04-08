@@ -92,8 +92,8 @@ body {
  color: inherit;
 }
 
-.post_heading a:visited {
- font-size: .9em;
+.post_heading a:link {
+ font-size: 1.2em;
 }
 
 .post_heading a:visited h3 {
