@@ -62,8 +62,8 @@ body {
  color: #FFF;
  text-decoration: none;
  margin: 0 .5em 0 0;
- padding: .15em;
- border: .05em solid;
+ padding: .2em;
+ border: .1em solid;
 }
 
 .branch_link:hover {
@@ -84,7 +84,7 @@ body {
 
 .branch_list, .post_list {
  list-style-type: none;
- padding: 0em;
+ padding: 0 0 0 2em;
 }
 
 
@@ -95,7 +95,7 @@ body {
 
 .post_heading {
  color: #521910;
- border: .1em solid;
+ border-bottom: .2em dotted;
 }
 
 .post_heading:hover {
