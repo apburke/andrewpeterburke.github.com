@@ -23,7 +23,7 @@
   <div id="menu">
 
     {% if site.branches != null %}
-      <ul>
+      <ul class="branch_list">
       {% for _branch in site.branches %}
         <li><a class="branch_link" href="/#{{_branch}}">{{_branch}}</a></li>
       {% endfor %}

@@ -14,18 +14,23 @@ layout: default
 	
     <! Creates a list of posts for each site section !>
     {% for _branch in site.branches %}
-    <a href="/#{{_branch}}"><h2 id="{{_branch}}" class="branch">{{_branch}}</h2></a>
-      <ul class="branch_listing">
-      {% for _post in site.posts %}
-        {% if _post.branch == _branch %}
-        <li class="post_heading">
-          <a href="{{_post.url}}"><h3 class="title">{{_post.title}}
-          <span class="date">{{ _post.date | date_to_string}}</span></h3>
-          <p class="description">{{_post.description}}</p></a>
-        </li>
-        {% endif %}
-      {% endfor %}
-      </ul>
+
+      <div class="branch">
+
+        <a href="/#{{_branch}}"><h2 class="title" id="{{_branch}}">{{_branch}}</h2></a>
+        <ul class="post_list">
+        {% for _post in site.posts %}
+          {% if _post.branch == _branch %}
+          <li class="post_heading"><a href="{{_post.url}}">
+            <h3 class="title">{{_post.title}}<span class="date">{{ _post.date | date_to_string}}</span></h3>
+            <p class="description">{{_post.description}}</p>
+          </a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+
+      </div>
+
     {% endfor %}
 
   </div>
