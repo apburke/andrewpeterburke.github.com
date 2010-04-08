@@ -5,6 +5,16 @@ body {
  color: #071F45;
 }
 
+ul {
+ padding: 0 1em;
+}
+
+h4 {
+ margin-top: 2em;
+ border-bottom: .1em solid;
+}
+
+
 #wrapper {
  width: 750px;
  margin-left: auto;
@@ -24,7 +34,8 @@ body {
  }
 
  #content {
-  margin: 0;
+  margin: 2em 0;
+  color: #3d120c;
  }
 
  #footer {
@@ -44,11 +55,12 @@ body {
 .branch h2, .site_heading {
  border: .1em solid #FFF;
  border-bottom: .1em solid;
+ color: #071F45;
 }
 
 .branch h2:hover, .site_heading:hover {
  border: .1em solid;
- background-color: #1C2D45;
+ background-color: #071F45;
  color: #FFF;
 }
 
@@ -95,13 +107,12 @@ body {
 }
 
 .post_heading {
- color: #521910;
  border-bottom: .2em dotted;
  margin: 0em 0em 1em 1em;
 }
 
 .post_heading:hover {
- background-color: #521910;
+ background-color: #3d120c
  color: #FFF;
 }
 
