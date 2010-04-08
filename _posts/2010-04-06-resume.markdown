@@ -30,7 +30,7 @@ Seeking a position on a software development team that moves at a fast pace, dea
 
 #### Technical Proficiencies  
 * **Languages**  
-  Java, Python, AS3, Perl, C++, C
+  Java, Python, AS3, Perl, C++, C  
   XML, JSTL, HTML, YAML, markdown
 * **Platforms**   
   Linux, Windows  
