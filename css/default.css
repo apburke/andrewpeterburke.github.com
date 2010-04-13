@@ -1,8 +1,17 @@
+/* COLOR */
+
+body { color: #402b12 }
+.site_heading { color: #0b1c40 }
+.site_heading .description { color: #6CA197 }
+.branch_link, .branch h2 { color: #6c8373 }
+.branch_link:hover { color: #FFF; background-color: #6c8373 }
+.post_heading:hover { background-color: #BFBBB4 }
+
+/* END COLOR */
+
 body {
- background-color: #FFF;
- font-family: sans-serif;
+ font-family: Verdana, sans-serif;
  font-size: 100%;
- color: #071F45;
 }
 
 ul {
@@ -15,125 +24,57 @@ h4 {
 }
 
 #wrapper {
- width: 750px;
+ width: 800px;
  margin-left: auto;
  margin-right: auto;
 }
 
- #header {
-  font-size: 1.3em;
-  margin: .5em 0em;
+#header, #menu, #footer {
+ margin: 0;
+ padding: 0;
+ font-size: 1.2em;
  }
 
- #menu {
-  font-size: 1.2em;
-  border-bottom: .4em dotted;
-  margin: 0em;
-  padding: 0em;
- }
+#content {
+ border-top: .2em solid;
+ border-bottom: .2em solid;
+ margin: 1em 0;
+ padding: 1em 0;
+}
 
- #content {
-  margin: 2em 0;
-  color: #3d120c;
- }
-
- #footer {
-  font-size: 1.2em;
-  border-top: .4em dotted;
-  margin: 0;
-  padding: 0;
- }
+#menu {
+ display: none;
+}
 
 /* CLASSES */
 
-.branch a, .site_heading a {
- color: inherit;
+.branch_list, .post_list, .title, .description {
+ padding: 0em;
+ margin: 0em;
+}
+
+.branch h2, .branch_link {
+ border: none;
+ font-weight: bold;
  text-decoration: none;
-}
-
-.branch h2, .site_heading {
- border: .1em solid #FFF;
- border-bottom: .1em solid;
- color: #071F45;
-}
-
-.branch h2:hover, .site_heading:hover {
- border: .1em solid;
- background-color: #071F45;
- color: #FFF;
-}
-
-.branch h2:before, .branch h2:after,
-.branch_link:before, .branch_link:after {
- content: "/";
-}
-
-.branch_link {
- background-color: #071F45;
- color: #FFF;
- text-decoration: none;
- margin: 0 .5em 0 0;
- padding: .2em;
- border: .1em solid;
-}
-
-.branch_link:hover {
- background-color: #FFF;
- color: #071F45;
+ padding: 0;
+ margin-right: 1em;
 }
 
 .branch_list {
- height: .5em;
- margin: 0em;
- padding: 0em;
- text-align: right;
+ padding-top: .3em;
 }
 
-.branch_list li{
+.branch_link {
+ padding: .2em;
+}
+
+.branch_list li {
  display: inline;
 }
 
 .branch_list, .post_list {
  list-style-type: none;
- padding: 0;
- margin: 0;
-}
-
-
-.post_heading, .site_heading, .branch h2 {
- padding: .2em;
- margin: 0;
-}
-
-.post_heading {
- border-bottom: .2em dotted;
- margin: 0em 0em 1em 1em;
-}
-
-.post_heading:hover {
- background-color: #3d120c;
- color: #FFF;
-}
-
-.post_heading a:link {
- font-size: 1.1em;
-}
-
-.post_heading a:visited {
-  font-size: .9em;
-}
-
-.post_heading a:visited h3 {
- font-weight: normal;
-}
-
-.post_list {
- margin: 1em 0em 2.5em 0em;
-}
-
-.description {
- font-style: italic;
- font-size: .9em;
 }
 
 .date {
@@ -142,11 +83,32 @@ h4 {
  font-size: .8em;
 }
 
-.title, .description {
- margin: 0;
- padding: 0;
+.description {
+ text-style: italic;
+ font-weight: normal;
 }
 
-.site_heading {
- font-variant: small-caps;
+.site_heading a, .branch a {
+ color: inherit;
+ text-decoration: none;
+}
+
+.post_heading {
+ margin: 0em 0em 1em 0em;
+}
+
+.post_heading a:visited {
+  font-size: .8em;
+}
+
+.post_heading a:visited h3 {
+ font-weight: normal;
+}
+
+.post_list {
+ margin: 0em 1em 2em;
+}
+
+.site_heading:hover .title, .site_heading:hover .description, .branch h2:hover { 
+ text-decoration: underline;
 }
