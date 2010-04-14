@@ -2,5 +2,5 @@ pygments : true
 permalink : none
 auto: true
 title: andrewpeterburke@github
-description: Online CV and software development portfolio hosted by github
+description: Online CV and software development portfolio
 branches: [profile, projects]

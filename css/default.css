@@ -5,7 +5,7 @@ body { color: #402b12 }
 .site_heading .description { color: #6CA197 }
 .branch_link, .branch h2 { color: #6c8373 }
 .branch_link:hover { color: #FFF; background-color: #6c8373 }
-.post_heading:hover { background-color: #BFBBB4 }
+.branch .post_heading:hover{ background-color: #BFBBB4 }
 
 /* END COLOR */
 
@@ -25,8 +25,7 @@ h4 {
 
 #wrapper {
  width: 800px;
- margin-left: auto;
- margin-right: auto;
+ margin: 1em auto;
 }
 
 #header, #menu, #footer {
@@ -35,6 +34,10 @@ h4 {
  font-size: 1.2em;
  }
 
+#menu {
+  display: none;
+}
+
 #content {
  border-top: .2em solid;
  border-bottom: .2em solid;
@@ -42,9 +45,6 @@ h4 {
  padding: 1em 0;
 }
 
-#menu {
- display: none;
-}
 
 /* CLASSES */
 
@@ -84,8 +84,7 @@ h4 {
 }
 
 .description {
- text-style: italic;
- font-weight: normal;
+ font-style: italic;
 }
 
 .site_heading a, .branch a {
@@ -97,17 +96,21 @@ h4 {
  margin: 0em 0em 1em 0em;
 }
 
-.post_heading a:visited {
-  font-size: .8em;
-}
-
 .post_heading a:visited h3 {
  font-weight: normal;
 }
 
-.post_list {
- margin: 0em 1em 2em;
+.post_list li {
+ margin-bottom: .7em;
 }
+
+.post_list {
+ margin: 1em 0 3em;
+}
+
+.post_heading {
+ text-transform: capitalize;
+ }
 
 .site_heading:hover .title, .site_heading:hover .description, .branch h2:hover { 
  text-decoration: underline;
