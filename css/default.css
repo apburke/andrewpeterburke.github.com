@@ -3,9 +3,9 @@
 body { color: #402b12 }
 .site_heading { color: #10295e }
 .site_heading .description, #footer, #footer a { color: #6CA197 }
-.branch_link, .branch h2 { color: #6c8373 }
-.branch_link:hover { color: #FFF; background-color: #6c8373 }
-.branch .post_heading:hover{ background-color: #D1DFE8 }
+#menu, h2 { color: #6c8373 }
+#menu li:hover { color: #FFF; background-color: #6c8373 }
+h3 a:hover { background-color: #D1DFE8 }
 
 /* END COLOR */
 
@@ -14,111 +14,78 @@ body {
  font-size: 110%;
 }
 
-ul { padding-left: 1em }
+#header, #menu { font-size: 1.3em;}
+
+#menu { display: none }
+
+#header {
+ margin-bottom: 1em;
+}
 
 #wrapper {
  width: 800px;
  margin: 1em auto;
 }
 
-#header, #menu {
- margin: 0;
- padding: 0;
- font-size: 1.3em;
-}
-
-#header, h2, h3, h4 {
- font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
-}
-
 #footer {
- margin: 0;
- padding: 0;
  font-size: .9em;
  text-align: right;
  border-top: .2em solid;
 }
 
-#menu {
- display: none;
-}
-
-#content {
- margin: 1em 0;
- padding: 1em 0;
-}
-
 /* CLASSES */
 
-.branch_list, .post_list, .title, .description {
- padding: 0em;
- margin: 0em;
-}
-
-.branch h2, .branch_link {
- border: none;
- font-weight: bold;
- text-decoration: none;
+h1, h2, #index h3, .description{
  padding: 0;
- margin-right: 1em;
+ margin: 0;
 }
 
-.branch_list {
- padding-top: .3em;
+#header, #menu, #footer, h2, h3, h4 {
+  font-family: Helvetica, sans-serif
 }
 
-.branch_link {
+h1 a, h2 a, h3 a, #menu a { color: inherit }
+
+h1, #header p { border-right: 3em ridge }
+
+h1 a { text-decoration: none }
+
+h1 a:hover { text-decoration: underline }
+
+.post_heading .title { text-transform: capitalize }
+
+.post_heading a:visited { font-weight: normal }
+
+#menu li { display: inline }
+
+#menu a { font-weight: bold }
+
+#menu ul, #index ul { list-style-type: none }
+
+#menu ul { 
+ margin: -2em 6em 1em 0;
+ padding: 0;
+ text-align: right;
+}
+
+#menu li {
+ padding: .3em;
+ margin: 0;
+}
+
+#index ul {
  padding: .2em;
+ margin: 1em;
 }
 
-.branch_list li {
- display: inline;
-}
-
-.branch_list, .post_list {
- list-style-type: none;
-}
+#index li { margin-bottom: .75em }
 
 .date {
  float: right;
- font-weight: normal;
- font-size: .8em;
-}
-
-.description {
- font-style: italic;
-}
-
-.site_heading a, .branch a {
+ font-weight: inherit;
+ text-decoration: inherit;
  color: inherit;
- text-decoration: none;
+ background-color: inherit;
 }
 
-.post_heading {
- margin: 0em 0em 1em 0em;
- border-bottom: .1em solid;
-}
-
-.post_heading a:visited h3 {
- font-weight: normal;
-}
-
-.post_list li {
- margin-bottom: .7em;
-}
-
-.post_list {
- margin: .5em .5em 1.5em;
-}
-
-.post_heading {
- text-transform: capitalize;
- }
-
-.site_heading .title, .site_heading .description {
- border-right: 3em ridge;
-}
-
-.site_heading:hover .title, .site_heading:hover .description, .branch h2:hover { 
- text-decoration: underline;
-}
+.description { font-style: italic }

@@ -1,9 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <meta name="author" content="{{site.author}}" >
+  <meta name="keywords" content="{{site.keywords}}" >
+  <meta name="description" content="{{site.description}}" >
   <title>{{site.title}}: {{page.title}}</title>
-  <link rel="stylesheet" type"text/css" href="/css/default.css" />
+  <link rel="stylesheet" type="text/css" href="/css/default.css" />
 </head>
 
 <body>
@@ -14,7 +17,8 @@
 
     <div class="site_heading">
       
-      <a href="/" title="{{site.title}}"><h1 class="title">{{site.title}}</h1><p class="description">{{site.description}}</p></a>
+      <h1><a href="/">{{site.title}}</a></h1>
+      <p class="description">{{site.description}}</p>
 
     </div>
 
@@ -23,9 +27,9 @@
   <div id="menu">
 
     {% if site.branches != null %}
-      <ul class="branch_list">
+      <ul>
       {% for _branch in site.branches %}
-        <li><a class="branch_link" href="/#{{_branch}}">{{_branch}}</a></li>
+        <li><a href="/#{{_branch}}">{{_branch}}</a></li>
       {% endfor %}
       </ul>
     {% endif %}

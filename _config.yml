@@ -2,5 +2,7 @@ pygments : true
 permalink : none
 auto: true
 title: andrewpeterburke@github
-description: Online CV and software development portfolio
+description: CV and software development portfolio
+author: Andrew Burke
+keywords: software, design, resume, Java, Python, object oriented, database, Flex, Perl 
 branches: [profile, projects]
