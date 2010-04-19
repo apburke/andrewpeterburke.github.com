@@ -1,17 +1,17 @@
 /* COLOR */
 
-body { color: #0b1c40 }
-#header, #footer { color: #10295e }
+#header, #header a, #content a, #footer{ color: #01295e }
+
 #header p, #footer a { color: #6CA197 }
-#menu, h2 { color: #402b12 }
-#menu li:hover { color: #FFF; background-color: #402b12 }
-h3 a:hover { color: #FFF; background-color: #0b1c40 }
+#menu, h2, h3 { color: #6c8373 }
+#menu li:hover { color: #FFF; background-color: #6c8373 }
+#footer a:hover { color: #FFF; background-color: #6ca197}
 
 /* END COLOR */
 
 body {
  font-family: Georgia, serif;
- font-size: 110%;
+ font-size: 100%;
 }
 
 #wrapper {
@@ -21,28 +21,37 @@ body {
 
 #header, #footer {
  padding: 1em;
+ border: .1em solid;
  border-top: .2em solid;
  border-bottom: .4em solid;
  text-align: center;
 }
 
-#header, #menu { font-size: 1.3em }
+#footer a { padding: 1em}
 
-#header, #menu, #footer, h2, h3, h4 {
-  font-family: Helvetica, sans-serif;
-  font-variant: small-caps;
+
+#header h1, #header p { border-right: 2em ridge;}
+
+h1, h2, h3, h4, a {
+  font-family: DejaVu Sans, Helvetica, sans-serif;
 }
+
+#index a:link { font-weight: bold}
+#content a:visited { font-weight: normal}
+
+h3, h4, #content a:link { font-variant: small-caps }
 
 #content { padding: 1em }
 
-#header h1, #header p { border-right: 2em groove }
-
-h1, h2, #index h3, .description{
+h1, h2, #index h3, h4, .description{
  padding: 0;
  margin: 0;
 }
 
-h1 a, h2 a, h3 a, #menu a { color: inherit }
+#header {
+ font-size: 110%;
+ letter-spacing: .3em;
+}
 
 h1 a { text-decoration: none }
 
@@ -57,15 +66,12 @@ h1 a:hover { text-decoration: underline }
  background-color: inherit;
 }
 
-.post_heading { text-transform: capitalize }
+.post_heading  .title{ text-transform: capitalize }
 
-.post_heading a:visited { font-weight: normal }
 
 #menu { display: none }
 
 #menu li { display: inline }
-
-#menu a { font-weight: bold }
 
 #menu ul, #index ul { list-style-type: none }
 

@@ -20,9 +20,8 @@ layout: default
       <ul>
       {% for _post in site.posts %}
         {% if _post.branch == _branch %}
-          <li class="post_heading"><h3 class="title"><a href="{{_post.url}}">{{_post.title}}<span class="date">{{ _post.date | date_to_string}}</span></a></h3>
-          <p class="description">{{_post.description}}</p>
-          </li>
+          <li class="post_heading"><a href="{{_post.url}}" class="title">{{_post.title}}</a><span class="date">{{ _post.date | date_to_string}}</span>
+          <p class="description">{{_post.description}}</p></li>
         {% endif %}
       {% endfor %}
       </ul>

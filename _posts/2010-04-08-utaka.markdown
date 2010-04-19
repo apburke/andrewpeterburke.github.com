@@ -2,9 +2,10 @@
 layout: post
 branch: projects
 title: Utaka
-description: An open source implementation of Amazon's S3 REST API
+description: An open source implementation of Amazon's S3 REST API.
 ---
 
-####About
+###About
 
-Utaka is an open-source RESTful server API comparable to Amazon's S3 web service. 
+* Utaka is an open-source RESTful server library implementing Amazon's S3 server API.
+* Check out [Utaka's homepage](http://mattmillr.github.com/utaka/) for more information or [view the source](http://github.com/mattmillr/utaka/). 
