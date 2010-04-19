@@ -40,6 +40,15 @@ description: Seeking a junior software development position.
     Git, Subversion, Fogbugz
 
 ### Education
-####Baylor University, Waco, Texas
-<span class="description">Bachelor of Science in Informatics, Bioinformatics <span class="date">August 2005 - December 2009</span></span>
+**Baylor University, Waco, Texas**  
+<span class="description">Bachelor of Science in Informatics, Bioinformatics <span class="date">August 2005 - December 2009</span></span>  
+     
+####Computer Science Coursework
+* Computer Graphics
+* Capstone Design Project
+* Software Engineering
+* Database Design & Application
+* Algorithms
+* Systems Programming
+* Data Structures
 
