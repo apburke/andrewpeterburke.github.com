@@ -9,13 +9,20 @@ description: Seeking a junior software development position.
 ### Experience
 * Object-oriented analysis and design
 * Relational database design and application
-* Web development with Tomcat and LAMP
-* GUI design with Java Swing and Adobe Flex
+* N-tier web development with Tomcat and LAMP
+* GUI design with Java Swing, Adobe Flex
 * Linux systems programming with bash, C, and Perl
 * Graphics and game development with SDL and OpenGL
 * Version Control with Git & Subversion
 
 ### Employment
+####[MyEdu](http://www.myedu.com "myEdu.com")
+<span class="description">Script Programmer<span class="date">June 2010 -</span></span>
+* Write and maintain scripts to scrape schedules from college websites
+* Drove refactoring of team's project that removed duplicate code, cut out repetition in the work flow, and reduced the size of the team's working repository by 36%
+* Wrote largest scheduling template that handles 15% of our school schedules
+* Assist team members in learning and using git and linux command line functions
+
 ####[Humanitarian International Services Group](http://hisg.org "HISG home page")  
 <span class="description">Software Development Intern <span class="date">June 2009 - August 2009</span></span>
 * Fixed bugs and implemented new features for H.I.S.G.'s Data Fusion Suite, a multi-tiered application to assist nonprofits around the globe in the tracking of resources, people, and capabilities.
@@ -29,7 +36,7 @@ description: Seeking a junior software development position.
 
 ### Technical Skills 
 * **Languages**  
-    Java, Python, AS3, Perl, C++, C  
+    Java, Python, Bash, AS3, Perl, C++, C  
 * **Markups**  
     XML, HTML, YAML, markdown  
 * **IDEs**  
