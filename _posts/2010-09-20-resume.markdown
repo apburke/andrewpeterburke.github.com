@@ -17,7 +17,7 @@ description: Seeking a junior software development position.
 
 ### Employment
 ####[MyEdu](http://www.myedu.com "myEdu.com")
-<span class="description">Script Programmer<span class="date">June 2010 -</span></span>
+<span class="description">Script Programmer<span class="date">June 2010 - present</span></span>
 * Write and maintain scripts to scrape schedules from college websites
 * Drove refactoring of team's project that removed duplicate code, cut out repetition in the work flow, and reduced the size of the team's working repository by 36%
 * Wrote largest scheduling template that handles 15% of our school schedules
