@@ -1,0 +1,61 @@
+---
+layout : post
+branch: profile
+title : software development resume
+description: Seeking a junior software development position.
+---
+
+
+### Experience
+* Object-oriented analysis and design
+* Relational database design and application
+* N-tier web development with Tomcat and LAMP
+* GUI design with Java Swing, Adobe Flex
+* Linux systems programming with bash, C, and Perl
+* Graphics and game development with SDL and OpenGL
+* Version Control with Git & Subversion
+
+### Employment
+####[MyEdu](http://www.myedu.com "myEdu.com")
+<span class="description">Script Programmer<span class="date">June 2010 - present</span></span>
+* Write and maintain scripts to scrape schedules from college websites
+* Drove refactoring of team's project that removed duplicate code, cut out repetition in the work flow, and reduced the size of the team's working repository by 36%
+* Wrote largest scheduling template that handles 15% of our school schedules
+* Assist team members in learning and using git and linux command line functions
+
+####[Humanitarian International Services Group](http://hisg.org "HISG home page")  
+<span class="description">Software Development Intern <span class="date">June 2009 - August 2009</span></span>
+* Fixed bugs and implemented new features for H.I.S.G.'s Data Fusion Suite, a multi-tiered application to assist nonprofits around the globe in the tracking of resources, people, and capabilities.
+* Created Utaka, an Amazon S3 server library, to provide an easy, RESTful file storage interface for D.F.S. and H.I.S.G.'s partners.
+
+####[Baylor University Cichlid Research Lab](https://bearspace.baylor.edu/Patrick_Danley/www/The_Danley_Lab/The_Danley_Lab.html "The Danley Lab")  
+<span class="description">Undergraduate Lab Assistant <span class="date">September 2007 - May 2009</span></span>
+* Designed database for the storage of biological data samples
+* Accelerated data analysis by creating scripts to reformat and manipulate giant gobs of data
+* Assisted in the analysis of microarray data in the R statistics environment
+
+### Technical Skills 
+* **Languages**  
+    Java, Python, Bash, AS3, Perl, C++, C  
+* **Markups**  
+    XML, HTML, YAML, markdown  
+* **IDEs**  
+    Eclipse, Flash Builder, Visual Studios  
+* **Web technologies**  
+    Apache, Tomcat, Mod_python, REST  
+* **Code/Project Control**  
+    Git, Subversion, Fogbugz
+
+### Education
+**Baylor University, Waco, Texas**  
+<span class="description">Bachelor of Science in Informatics, Bioinformatics <span class="date">August 2005 - December 2009</span></span>  
+     
+####Computer Science Coursework
+* Computer Graphics
+* Capstone Design Project
+* Software Engineering
+* Database Design & Application
+* Algorithms
+* Systems Programming
+* Data Structures
+
