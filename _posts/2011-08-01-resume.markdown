@@ -6,45 +6,37 @@ description: Seeking a junior software development position.
 ---
 
 
-### Experience
+### Skills and Experience
+* Languages - Python, Bash, Java, Perl, C++, C
+* Development tools - Git, Vim, Eclipse, Visual Studios
+* Databases - MySQL, SQLITE, MongoDB, sqlalchemy(Python ORM)
+* Web and Text Scraping
 * Object-oriented analysis and design
 * Relational database design and application
-* N-tier web development with Tomcat and LAMP
+* Web development with LAMP, Tomcat
 * GUI design with Java Swing, Adobe Flex
 * Linux systems programming with bash, C, and Perl
 * Graphics and game development with SDL and OpenGL
-* Version Control with Git & Subversion
 
 ### Employment
 ####[MyEdu](http://www.myedu.com "myEdu.com")
-<span class="description">Script Programmer<span class="date">June 2010 - present</span></span>
-* Write and maintain scripts to scrape schedules from college websites
-* Drove refactoring of team's project that removed duplicate code, cut out repetition in the work flow, and reduced the size of the team's working repository by 36%
-* Wrote largest scheduling template that handles 15% of our school schedules
-* Assist team members in learning and using git and linux command line functions
+<span class="description">Web Scraper/Developer<span class="date">June 2010 - present</span></span>
+* Designed cloud framework to run scripts and keep data up to date and personally built scheduling component 
+* Improve and expand functionality of our propriety scripting language
+* Write and maintain scripts to scrape schedules and booklists from websites of ~750 schools in addition to random web or pdf scrapes
+* Helped train team members in using git, bash tools through msys, and MySQL
+* Refactored repo into templating system to remove duplicate code files, cut out repetitions in workflow, reduced code size, and increased development speed on updating or creating new scripts
 
 ####[Humanitarian International Services Group](http://hisg.org "HISG home page")  
 <span class="description">Software Development Intern <span class="date">June 2009 - August 2009</span></span>
 * Fixed bugs and implemented new features for H.I.S.G.'s Data Fusion Suite, a multi-tiered application to assist nonprofits around the globe in the tracking of resources, people, and capabilities.
-* Created Utaka, an Amazon S3 server library, to provide an easy, RESTful file storage interface for D.F.S. and H.I.S.G.'s partners.
+* Created a Mod\_Python implementation of the Amazon S3 server library, to provide an easy, RESTful file storage interface
 
 ####[Baylor University Cichlid Research Lab](https://bearspace.baylor.edu/Patrick_Danley/www/The_Danley_Lab/The_Danley_Lab.html "The Danley Lab")  
 <span class="description">Undergraduate Lab Assistant <span class="date">September 2007 - May 2009</span></span>
 * Designed database for the storage of biological data samples
 * Accelerated data analysis by creating scripts to reformat and manipulate giant gobs of data
 * Assisted in the analysis of microarray data in the R statistics environment
-
-### Technical Skills 
-* **Languages**  
-    Java, Python, Bash, AS3, Perl, C++, C  
-* **Markups**  
-    XML, HTML, YAML, markdown  
-* **IDEs**  
-    Eclipse, Flash Builder, Visual Studios  
-* **Web technologies**  
-    Apache, Tomcat, Mod_python, REST  
-* **Code/Project Control**  
-    Git, Subversion, Fogbugz
 
 ### Education
 **Baylor University, Waco, Texas**  
@@ -58,4 +50,3 @@ description: Seeking a junior software development position.
 * Algorithms
 * Systems Programming
 * Data Structures
-
